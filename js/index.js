@@ -37,6 +37,7 @@ function getCourseAsHtmlString(product) {
  </article>`;
 }
 
+
 function switchLayout() {
  document.getElementById('products').classList.toggle('column-view');
  }

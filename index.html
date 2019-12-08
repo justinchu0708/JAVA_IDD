@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="freshstart">
+    <meta name="author" content="pakheiChu101204131">
+    <meta name="keywords" content="freshstart,clothes,menswear">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fresh Start</title>
+    <link rel="stylesheet" href="css/main.css">
+
+  </head>
+  <body>
+    <header>
+      <div class="topnav">
+        <img class="logo" src="img/freshstartlogo.png" alt="logo">
+        <a class="active" href="index.html">Home</a>
+        <a class="active" href="#products">Products</a>
+        <a class="active" href="#contact">Contact</a>
+        <a class="active" href="#about">About</a>
+        <a class="active" href="#signin">Sign in</a>
+        <input type="text" placeholder="Search..">
+      </div>
+    </header>
+    <form>
+        <fieldset>
+          <legend>Price (less than)</legend>
+          <label><input type="radio" name="price" value="all" checked> All</label>
+          <label><input type="radio" name="price" value="60"> $60</label>
+          <label><input type="radio" name="price" value="100"> $100</label>
+          <label><input type="radio" name="price" value="150"> $150</label>
+        </fieldset>
+        <fieldset>
+          <label for="productCategory">Color:</label>
+          <select name="category" id="productCategory">
+            <option value="" selected disabled>-- Search by Category --</option>
+            <option value="blue">Blue</option>
+            <option value="white">White</option>
+          </select>
+        </fieldset>
+      </form>
+    <main>
+        <button id="layout">Flip Layout</button>
+      <section class="newArrivals">
+        <div class="productImage">
+          <img class="newarrivals" src="img/newarrivals.png" alt="productphoto" >
+        </div>
+        <br><br><br><br><br>
+      </section>
+      
+      <article id=products class=products></article>
+      </section>
+    </main>
+    <script src="js/index.js"></script>
+  </body>
+  <footer>
+    <section class="footer">
+      <nav>
+        <ul>
+          <li><a href="#">site map</a></li>
+          <li><a href="#">social media</a></li>
+          <li><a href="#">terms and conditions</a></li>
+        </ul>
+      </nav>
+    </section>
+  </footer>
+</html>

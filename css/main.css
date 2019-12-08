@@ -1,0 +1,124 @@
+body {
+    background-color: rgb(255, 255, 255)
+}
+.logo {
+  width: 80px;
+  height: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+header {
+  background-color: #43E8D8;
+  overflow: hidden;
+}
+
+.topnav a {
+  display: inline-block;
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+.topnav a.active {
+  background-color: #104370;
+  color: white;
+}
+
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+.newarrivals {
+  width: 55%;
+  height: auto;
+  position: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.product img {
+  width: 20em;
+  height: 20em;
+}
+
+footer {
+  background-color: #E8A939;
+}
+
+@media screenand (min-width:600px) {
+  body{
+    width:25%;
+    float: left;
+    margin: auto;
+  }
+
+}
+
+.button {
+  background-color: #104370;
+  border: none;
+  color: White;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+p {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+h2{
+  text-align: center;
+  font-family:monospace;
+}
+
+h1 {
+  text-align: center;
+  font-family: sans-serif;
+}
+h3 {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.column-view {
+  grid-template-columns: 1fr 1fr ;
+}
+
+.products {
+  display: grid;
+  grid-gap: 1em;
+  text-align: center;
+  margin: auto;
+}
+
+ol, ul {
+  list-style: none;
+  text-align: center;
+}
+
+li {
+  text-align: center;
+}
+
+form {
+  background-color: #104370;
+  color: white;
+  font-family: sans-serif;
+
+}

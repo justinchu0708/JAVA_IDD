@@ -71,4 +71,3 @@ function checkCategory(event) {
 
 document.getElementById('layout').addEventListener('click', event => switchLayout() )
 document.getElementById('productCategory').addEventListener('change', event => checkCategory(event) )
-

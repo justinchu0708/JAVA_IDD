@@ -20,7 +20,6 @@ const product = [
     { description: `Star B&W`,category: `black`,price: 70,img: `img/shirt18.jpg`},
     { description: `Formal White`,category: `white`,price: 100,img: `img/shirt19.jpg`},
     { description: `Casual White`,category: `white`,price: 90,img: `img/shirt20.jpg`},
-
 ];
 
 function getCourseAsHtmlString(product) {
